@@ -43,7 +43,6 @@ with gr.Blocks(
 
         with gr.Column():
             response = gr.Textbox(
-                autoscroll=False,
                 label="Recomendações de livros",
                 lines=18,
                 max_lines=18,
